@@ -11,17 +11,17 @@ namespace CSharplight
     {
         static void Main(string[] args)
         {
-            bool execution = true;
+            bool isWork = true;
             string stopWord = "exit";
 
-            while (execution)
+            while (isWork)
             {
                 Console.WriteLine("Введите сообщение:");
                 string message = Console.ReadLine();
 
                 if (message == stopWord)
                 {
-                    execution = false;
+                    isWork = false;
                 }
             }
         }
